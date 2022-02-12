@@ -1,0 +1,1052 @@
+[
+  {
+    "LOCATION": "AUS",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 17.092,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "AUS",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 28.61,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "AUS",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 6.647,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "AUT",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 30.986,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "AUT",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 26.733,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "AUT",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 33.39,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "BEL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 27.778,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "BEL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 21.429,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "BEL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 23.267,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 13.056,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 23.529,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 21.35,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CZE",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 43.498,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CZE",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 16.304,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CZE",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 53.556,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DNK",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 16.268,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DNK",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 16.418,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DNK",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 4.022,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FIN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 35.081,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FIN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 9.333,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FIN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 15.887,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 27.366,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 13.6,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 8.45,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 35.606,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 34.409,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 27.384,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GRC",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 14.091,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GRC",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 25.217,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GRC",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 4.359,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "HUN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 17.931,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "HUN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 16.092,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "HUN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 14.039,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ISL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 44,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ISL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 11.872,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "IRL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 26.569,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "IRL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 1.754,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "IRL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 9.619,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 24.101,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 18.254,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 6.748,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 14,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 20.625,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 25.514,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "KOR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 10.436,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "KOR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 11.2,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "KOR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 4.958,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "LUX",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 19.847,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "LUX",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 26.757,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "MEX",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 20.859,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "MEX",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 26.773,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "MEX",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 2.189,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "NLD",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 24.4,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "NLD",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 20.755,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "NLD",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 25.52,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "NOR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 17.424,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "NOR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 19.101,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "NOR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 7.586,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "POL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 7.64,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "POL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 11.712,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "POL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 15.578,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "PRT",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 28.244,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "PRT",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 19.62,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "SVK",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 24.171,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "SVK",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 22.222,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "SVK",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 14.562,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ESP",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 10.296,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ESP",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 14.943,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ESP",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 11.588,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "SWE",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 20.233,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "SWE",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 21.538,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "SWE",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 17.297,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CHE",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 34.634,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CHE",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 36.559,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CHE",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 25.641,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "TUR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 3.696,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "TUR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 14.286,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "TUR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 10.951,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 21.864,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 11.11,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 18.106,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 30.276,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 36.837,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 3.175,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CHL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 9.02,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CHL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 19.459,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "COL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 7.334,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "COL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 8.015,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "COL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 2.927,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CRI",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 2.921,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CRI",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 4.846,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CRI",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 28.773,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "EST",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 40.598,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "EST",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 4.545,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "EST",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 10.134,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "LVA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 16.738,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "LVA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 8.065,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "LVA",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 10.79,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "LTU",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 14.396,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "LTU",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 10.294,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "LTU",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 9.745,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "SVN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "BIRD",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 27.632,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "SVN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "MAMMAL",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 38.202,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "SVN",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 9.676,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CHL",
+    "INDICATOR": "THREATENED",
+    "SUBJECT": "PLANT",
+    "MEASURE": "PC_SPECIES",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 5.414,
+    "Flag Codes": ""
+  }
+]

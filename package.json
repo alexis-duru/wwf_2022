@@ -1,0 +1,24 @@
+{
+  "name": "wwf_dataforchangeproject",
+  "version": "1.0.0",
+  "description": "cd assets dart-sass-mac/sass scss/style.scss css/style.css --watch",
+  "main": "home.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexis-duru/WWF_DataForChangeProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexis-duru/WWF_DataForChangeProject/issues"
+  },
+  "homepage": "https://github.com/alexis-duru/WWF_DataForChangeProject#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "three": "^0.137.5",
+    "underscore": "^1.13.2"
+  }
+}

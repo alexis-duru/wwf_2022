@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_package_v0.16/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_package_v0.16/favicon-16x16.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  <title>WWF - Data For Change</title>
+</head>
+
+<body>
+  <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+  <div class="noise"></div>
+  <div class="intro">
+    <h1 class="logo-header">
+      <span class="logo">W</span><span class="logo">W</span><span class="logo">F</span>
+    </h1>
+  </div>
+  <div class="progress-section">
+    <div class="progress-bar-wrap">
+        <div class="progress-bar"></div>
+    </div>
+    <div class="progress-num"></div>
+</div>
+
+  <div id="homepage">
+    <div class="navigation">
+      <a href="home.html" class="logo-header">WWF</a>
+      <div class="fullPageMenu" id="nav">
+        <div class="cursor"></div>
+      <div class="cursor-follower"></div>
+        <a href="#" class="logo-header" id="logo-navigation" onclick="menuToggle()" >WWF</a>
+        <div class="nav">
+          <ul class="li-hidden">
+            <li>
+              <a class="menu-item" href="#" data-text="Story">STORY</a>
+            </li>
+            <li>
+              <a class="menu-item" href="#" data-text="About">ABOUT</a>
+            </li>
+            <li>
+              <a class="menu-item" href="#" data-text="World">WORLD</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu">
+        <p id="changeMenu">menu</p>
+        <span class="menuicon" id="toggle" onclick="menuToggle(), ChangeTxtMenu()"></span>
+      </div>
+    </div>
+    <div class="container c-1">
+      <div class="wrapper">
+        <h1>WWF DATA PROJECT</h1>
+        <p>HISTORY OF GLOBAL CLIMATE CHANGE</p>
+      </div>
+    </div>
+    <div class="container c-2 aos">
+      <p>PRESENT</p>
+    </div>
+    <div class="container c-3 aos">
+      <a>STORY ABOUT WORLD</a>
+    </div>
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

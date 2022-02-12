@@ -1,0 +1,175 @@
+.navigation {
+    .logo-header {
+        left: 40px;
+        top: 3%;
+        font-size: 2rem;
+        color: white;
+        font-family: 'grandslang';
+        letter-spacing: 4px;
+        text-decoration: none;
+        animation: fadein 2.5s;
+        animation-delay: 2s;
+        position: fixed;
+    }
+    #logo-navigation {
+        color: black;
+        left: 40px;
+    }
+    .fullPageMenu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #f1f1f1;
+        transition: 1s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(100%);
+        z-index: 1000000;
+        .nav {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            padding: 0 150px;
+            justify-content: center;
+            align-items: center;
+            font-size: 7rem;
+            ul {
+                user-select: none;
+                counter-reset: menucounter;
+                opacity: 1;
+
+                &:hover a {
+                    opacity: 0.3;
+                }
+                :nth-child(2) {
+                    margin-left: 250px;
+                }
+                :nth-child(3) {
+                    margin-right: 250px;
+                }
+                :hover a:hover {
+                    opacity: 1;
+                }
+                li {
+                    transition: 0.2s ease-in-out;
+                    line-height: 55px;
+                    text-align: justify;
+                    opacity: 1;
+                    list-style: none;
+                    color: black;
+                    &::after {
+                        counter-increment: menucounter;
+                        content: counters(menucounter, '.', decimal-leading-zero);
+                        font-size: 1.5rem;
+                        color: #333;
+                        margin-right: 20px;
+                        font-style: italic;
+                    }
+                    a {
+                        transition: 0.4s ease-in-out;
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                        font-family: 'grandslang';
+                        letter-spacing: 10px;
+                        list-style-type: none;
+                        line-height: 150px;
+                    }
+                }
+            }
+        }
+    }
+
+    .fullPageMenu.active {
+        top: 0;
+        left: 0;
+        opacity: 1;
+        position: fixed;
+        transform: translateY(0%);
+        z-index: 1000000;
+        color: black;
+    }
+
+    .menu {
+        .menuicon {
+            position: fixed;
+            top: 30px;
+            right: 40px;
+            height: 40px;
+            width: 40px;
+            border: 1px solid #333;
+            border-radius: 150px;
+            transform: scale(1);
+            transition: 0.4s ease-in-out;
+            animation: Anim1 1s infinite alternate;
+            cursor: pointer;
+            z-index: 1000000;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 3px;
+                height: 3px;
+                background-color: #333;
+                border-radius: 50%;
+            }
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        .expand {
+            animation: Anim2 4.5s ease-in-out;
+            background: white(177, 177, 89);
+            border: 1px dotted #333;
+            transition: ease-in-out;
+        }
+        #changeMenu {
+            position: fixed;
+            top: 40px;
+            right: 120px;
+            height: 20px;
+            width: 20px;
+            transform: scale(1);
+            transition: 0.4s ease-in-out;
+            cursor: pointer;
+            color: #333;
+            font-weight: 200;
+            font-size: 20px;
+            z-index: 1000000;
+        }
+    }
+}
+
+@keyframes Anim2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes Anim1 {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+
+    to {
+        transform: scale(0.8) rotate(70deg);
+    }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

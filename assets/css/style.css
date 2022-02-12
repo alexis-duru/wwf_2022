@@ -8,6 +8,10 @@ html {
   font-size: 62, 5%;
   text-decoration: none;
   list-style: none;
+  cursor: none;
+}
+html a {
+  cursor: none;
 }
 
 @font-face {
@@ -46,13 +50,13 @@ html {
   color: black;
   transition: 1s;
 }
-.intro .logo-header {
+.intro .logo-first-page {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.intro .logo-header .logo {
+.intro .logo-first-page .logo {
   position: relative;
   display: inline-block;
   bottom: -20px;
@@ -60,12 +64,12 @@ html {
   margin-right: 50px;
   font-weight: 100;
 }
-.intro .logo-header .logo.active {
+.intro .logo-first-page .logo.active {
   bottom: 0;
   opacity: 1;
   transition: ease-in-out 0.5s;
 }
-.intro .logo-header .logo.fade {
+.intro .logo-first-page .logo.fade {
   bottom: 400px;
   opacity: 0;
   transition: ease-in-out 0.5s;
@@ -129,6 +133,10 @@ html {
   color: white;
 }
 
+.b-canvas {
+  transition: all 0.2s linear;
+}
+
 .navigation .logo-header {
   left: 40px;
   top: 3%;
@@ -157,7 +165,7 @@ html {
   flex-direction: column;
   align-items: center;
   transform: translateY(100%);
-  z-index: 1000000;
+  z-index: 100;
 }
 .navigation .fullPageMenu .nav {
   display: flex;
@@ -210,13 +218,16 @@ html {
   list-style-type: none;
   line-height: 150px;
 }
+.navigation .fullPageMenu .nav ul li:hover ~ .cursor {
+  transform: scale(2);
+}
 .navigation .fullPageMenu.active {
   top: 0;
   left: 0;
   opacity: 1;
   position: fixed;
   transform: translateY(0%);
-  z-index: 1000000;
+  z-index: 100;
   color: black;
 }
 .navigation .menu .menuicon {
@@ -230,8 +241,7 @@ html {
   transform: scale(1);
   transition: 0.4s ease-in-out;
   animation: Anim1 1s infinite alternate;
-  cursor: pointer;
-  z-index: 1000000;
+  z-index: 100;
 }
 .navigation .menu .menuicon:before {
   content: "";
@@ -261,11 +271,10 @@ html {
   width: 20px;
   transform: scale(1);
   transition: 0.4s ease-in-out;
-  cursor: pointer;
   color: #333;
   font-weight: 200;
   font-size: 20px;
-  z-index: 1000000;
+  z-index: 100;
 }
 
 @keyframes Anim2 {
@@ -298,28 +307,40 @@ html {
 }
 .cursor {
   position: absolute;
-  background: #333;
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
+  background-color: #F1F1F1F1;
+  left: -20px;
+  z-index: 100000;
   border-radius: 100%;
-  z-index: 1;
-  transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+  transition: 0.2s linear;
   user-select: none;
   pointer-events: none;
-  transform: scale(0.8);
+  mix-blend-mode: difference;
 }
 
 .cursor-follower {
-  position: absolute;
-  background: rgba(51, 51, 51, 0.338);
   width: 30px;
   height: 30px;
+  border: 1px solid #F1F1F1F1;
+  position: absolute;
   border-radius: 100%;
-  z-index: 1;
-  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+  top: 50%;
+  z-index: 100000;
+  transition: 0.05s linear;
   user-select: none;
   pointer-events: none;
-  transform: translate(4px, 4px);
+  mix-blend-mode: difference;
+}
+
+.increase {
+  transform: scale(10);
+  transition: transform 0.5s linear;
+}
+
+.decrease-follower {
+  opacity: 0;
+  transition: opacity 0.5s linear;
 }
 
 .progress-section {

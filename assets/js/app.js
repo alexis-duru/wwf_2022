@@ -64,14 +64,6 @@ function ChangeTxtMenu() {
 
 // Cursor //
 
-// const cursor = document.querySelector('.cursor');
-// document.addEventListener('mousemove', e => {
-//     cursor.setAttribute('style', `top :${e.pageY - 5}px; left :${e.pageX - 5}px;`);
-//     document.querySelector('.cursor-follower')
-//         .setAttribute('style', `top :${e.pageY - 17}px; left :${e.pageX - 17}px;`);
-//     e.preventDefault();
-// });
-
 
 var cursor = $(".cursor"),
 follower = $(".cursor-follower");
@@ -89,8 +81,8 @@ onRepeat: function() {
 
     TweenMax.set(follower, {
         css: {
-            left: posX - 20,
-            top: posY - 20
+            left: posX - 3.5,
+            top: posY - 3.5
         }
     });
 
@@ -108,14 +100,14 @@ mouseX = e.pageX;
 mouseY = e.pageY;
 });
 
-$(".menu-item").on("mouseenter", function() {
-cursor.addClass("increase");
-follower.addClass("decrease-follower");
+$(".li-hidden").on("mouseenter", function() {
+follower.addClass("increase");
+cursor.addClass("decrease-follower");
 });
     
-$(".menu-item").on("mouseleave", function() {
-cursor.removeClass("increase");
-follower.removeClass("decrease-follower");
+$(".li-hidden").on("mouseleave", function() {
+follower.removeClass("increase");
+cursor.removeClass("decrease-follower");
 });
 
 // Background color //

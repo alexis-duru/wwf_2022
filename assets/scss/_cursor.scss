@@ -1,9 +1,22 @@
 .cursor {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #F1F1F1F1;
+    position: absolute;
+    border-radius: 100%;
+    z-index: 100000;
+    transition: .05s linear;
+    user-select: none;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+}
+
+.cursor-follower {
     position: absolute;
     width: 7px;
     height: 7px;
     background-color: #F1F1F1F1;
-    left: -20px;
     z-index: 100000;
     border-radius: 100%;
     transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
@@ -11,21 +24,6 @@
     user-select: none;
     pointer-events: none;
     mix-blend-mode: difference;
-}
-
-.cursor-follower {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #F1F1F1F1;
-    position: absolute;
-    border-radius: 100%;
-    top: 50%;
-    z-index: 100000;
-    transition: .05s linear;
-    user-select: none;
-    pointer-events: none;
-    mix-blend-mode: difference;
-    
 }
 
 .increase{

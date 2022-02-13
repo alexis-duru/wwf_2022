@@ -63,47 +63,60 @@ function ChangeTxtMenu() {
 // HOMEPAGE
 
 // Cursor //
-const cursor = document.querySelector('.cursor');
-document.addEventListener('mousemove', e => {
-    cursor.setAttribute('style', `top :${e.pageY - 5}px; left :${e.pageX - 5}px;`);
-    document.querySelector('.cursor-follower')
-        .setAttribute('style', `top :${e.pageY - 17}px; left :${e.pageX - 17}px;`);
-    e.preventDefault();
+
+// const cursor = document.querySelector('.cursor');
+// document.addEventListener('mousemove', e => {
+//     cursor.setAttribute('style', `top :${e.pageY - 5}px; left :${e.pageX - 5}px;`);
+//     document.querySelector('.cursor-follower')
+//         .setAttribute('style', `top :${e.pageY - 17}px; left :${e.pageX - 17}px;`);
+//     e.preventDefault();
+// });
+
+
+var cursor = $(".cursor"),
+follower = $(".cursor-follower");
+
+var posX = 0,
+posY = 0,
+mouseX = 0,
+mouseY = 0;
+
+TweenMax.to({}, 0.016, {
+repeat: -1,
+onRepeat: function() {
+    posX += (mouseX - posX) / 9;
+    posY += (mouseY - posY) / 9;
+
+    TweenMax.set(follower, {
+        css: {
+            left: posX - 20,
+            top: posY - 20
+        }
+    });
+
+    TweenMax.set(cursor, {
+        css: {
+            left: mouseX,
+            top: mouseY
+        }
+    });
+}
 });
-// var cursor = $(".cursor"),
-// follower = $(".cursor-follower");
 
-// var posX = 0,
-// posY = 0,
-// mouseX = 0,
-// mouseY = 0;
+$(document).on("mousemove", function(e) {
+mouseX = e.pageX;
+mouseY = e.pageY;
+});
 
-// TweenMax.to({}, 0.016, {
-// repeat: -1,
-// onRepeat: function() {
-//     posX += (mouseX - posX) / 9;
-//     posY += (mouseY - posY) / 9;
-
-//     TweenMax.set(follower, {
-//         css: {
-//             left: posX - 15,
-//             top: posY - 15
-//         }
-//     });
-
-//     TweenMax.set(cursor, {
-//         css: {
-//             left: mouseX,
-//             top: mouseY
-//         }
-//     });
-// }
-// });
-
-// $(document).on("mousemove", function(e) {
-// mouseX = e.pageX;
-// mouseY = e.pageY;
-// });
+$(".menu-item").on("mouseenter", function() {
+cursor.addClass("increase");
+follower.addClass("decrease-follower");
+});
+    
+$(".menu-item").on("mouseleave", function() {
+cursor.removeClass("increase");
+follower.removeClass("decrease-follower");
+});
 
 // Background color //
 
@@ -151,19 +164,20 @@ updateProgressBar()
 // AOS
 
 // Menu items change cursor size
-const ulElt = document.querySelector('.li-hidden');
-ulElt.addEventListener('mouseenter', ()=>{
-        console.log(cursor);
-        cursor.classList.toggle('increase');
-        document.querySelector('.cursor-follower')
-            .classList.toggle('decrease-follower');
-})
-ulElt.addEventListener('mouseleave', ()=>{
-        console.log(cursor);
-        cursor.classList.toggle('increase');
-        document.querySelector('.cursor-follower')
-            .classList.toggle('decrease-follower');
-})
+// const ulElt = document.querySelector('.li-hidden');
+// ulElt.addEventListener('mouseenter', ()=>{
+//         console.log(cursor);
+//         cursor.classList.toggle('increase');
+//         document.querySelector('.cursor-follower')
+//             .classList.toggle('decrease-follower');
+// })
+// ulElt.addEventListener('mouseleave', ()=>{
+//         console.log(cursor);
+//         cursor.classList.toggle('increase');
+//         document.querySelector('.cursor-follower')
+//             .classList.toggle('decrease-follower');
+// })
+
 
 
 

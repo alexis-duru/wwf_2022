@@ -313,7 +313,7 @@ html a {
   left: -20px;
   z-index: 100000;
   border-radius: 100%;
-  transition: 0.2s linear;
+  transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
   user-select: none;
   pointer-events: none;
   mix-blend-mode: difference;

@@ -1,4 +1,3 @@
-
 const logoHeader = document.querySelectorAll('.logo-header');
 let text;
 logoHeader.forEach((logo)=>{

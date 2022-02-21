@@ -1,0 +1,33 @@
+.gallery_container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 1200px;
+    height: 800px;
+    /* border: 1px solid white; */
+}
+
+.gallery_canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-600px, -600px);
+    width: 200%;
+    height: auto;
+    padding: 200px;
+    transition: 1.5s ease-in-out;
+    display: flex;
+}
+
+.gallery_column {
+    position: relative;
+    flex: 25%;
+}
+
+img {
+    width: 100%;
+    filter: grayscale(100%);
+    padding: 1rem;
+}

@@ -34,7 +34,6 @@ function menuToggle() {
     var toggle = document.getElementById("toggle")
     nav.classList.toggle("active")
     toggle.classList.toggle("active")
-    logo-headers.classList.toggle("active")
 }
 
 // Expand fx on the button
@@ -155,7 +154,7 @@ updateProgressBar()
 
 // AOS
 
-// Menu items change cursor size
+
 // const ulElt = document.querySelector('.li-hidden');
 // ulElt.addEventListener('mouseenter', ()=>{
 //         console.log(cursor);
@@ -169,7 +168,6 @@ updateProgressBar()
 //         document.querySelector('.cursor-follower')
 //             .classList.toggle('decrease-follower');
 // })
-
 
 
 

@@ -5,22 +5,22 @@ let columnTwo = document.querySelector('.two');
 let columnThree = document.querySelector('.three');
 let columnFour = document.querySelector('.four');
 
-for(let i = 1; i <= 16; i++){
+for (let i = 1; i <= 16; i++) {
     let imgDiv = document.createElement('div');
     let divImage = document.createElement('img');
     divImage.setAttribute('src', `./assets/img/gallery/${i}.jpg`);
-    divImage.setAttribute('class', 'canvas-image');
+    divImage.setAttribute('class', 'canvas-image transition');
     imgDiv.appendChild(divImage);
 
-    if (i < 5){
+    if (i < 5) {
         columnOne.appendChild(imgDiv);
-    }else if (i < 9){
+    } else if (i < 9) {
         columnTwo.appendChild(imgDiv);
-    }else if (i < 13){
+    } else if (i < 13) {
         columnThree.appendChild(imgDiv);
-    }else{
+    } else {
         columnFour.appendChild(imgDiv);
-    }            
+    }
 }
 
 container.addEventListener('mousemove', (e) => {
@@ -31,14 +31,20 @@ container.addEventListener('mousemove', (e) => {
 })
 
 const images = document.querySelectorAll('.canvas-image');
-images.forEach((img) =>{
-    $(img).on("mouseenter", function() {
+const containerDetail = document.querySelector('.container__description');
+images.forEach((img) => {
+    $(img).on("mouseenter", function () {
         follower.addClass("increase-gallery");
         cursor.addClass("decrease-follower-gallery");
-        });
-            
-        $(img).on("mouseleave", function() {
+    });
+
+    $(img).on("mouseleave", function () {
         follower.removeClass("increase-gallery");
         cursor.removeClass("decrease-follower-gallery");
-        });
+    });
+
+    img.addEventListener('click', (e)=>{
+        console.log(e.target);
+        containerDetail.setAttribute('style', `background-image: url(${e.target.getAttribute("src")})`);
+    })
 })

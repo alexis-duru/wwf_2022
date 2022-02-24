@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_package_v0.16/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_package_v0.16/favicon-16x16.png">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js">
   </script>
@@ -22,11 +23,11 @@
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
   <div class="noise"></div>
-  <div class="intro">
+  <!-- <div class="intro">
     <h1 class="logo-first-page">
       <span class="logo">W</span><span class="logo">W</span><span class="logo">F</span>
     </h1>
-  </div>
+  </div> -->
   <div class="progress-section">
     <div class="progress-bar-wrap">
       <div class="progress-bar"></div>
@@ -58,19 +59,25 @@
         <span class="menuicon" id="toggle" onclick="menuToggle(), ChangeTxtMenu()"></span>
       </div>
     </div>
-    <div class="container c-1">
+    <div class="container c1">
       <div class="wrapper">
-        <h1>WWF DATA PROJECT</h1>
-        <p>HISTORY OF GLOBAL CLIMATE CHANGE</p>
+        <h1 id="c1-title">WWF DATA PROJECT</h1>
+        <div id="c1-container-txt-move">
+          <p id="c1-txt-move">HISTORY OF GLOBAL CLIMATE CHANGE</p>
+        </div>
       </div>
     </div>
-    <div class="container c-2 aos">
-      <p>PRESENT</p>
+    <div class="container c2 aos">
+      <p data-aos="fade-up" data-aos-duration="3000">PRESENT</p>
     </div>
-    <div class="container c-3 aos">
-      <a>STORY ABOUT WORLD</a>
+    <div class="container c3 aos">
+      <a id="c3-link" href="gallery.html" data-aos="fade-up" data-aos-duration="3000">STORY ABOUT WORLD</a>
     </div>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script defer type="text/javascript">
+    AOS.init();
+  </script>
 </body>
 
 </html>

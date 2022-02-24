@@ -4,6 +4,7 @@ $('.transition').click(function () {
     $('.description').addClass('fixed');
     $('.page__description').fadeOut(100).delay(2800).fadeIn();
     $('.description').addClass('fadeIn')
+    $('.description').removeClass('hide')
     $('.gallery').removeClass('fixed')
     setTimeout(function () {
         $('.page__style').removeClass('animate_content');
@@ -17,9 +18,10 @@ $('.description__cancel').click(function () {
     // animate content
     $('.page__style').addClass('animate_content');
     $('.page__description').fadeOut(100).delay(2800).fadeIn();
-    $('.gallery').addClass('fixed')
-    $('.description').removeClass('fixed')
-    $('.container__description').attr('style', 'background-image : none; ')
+    $('.gallery').addClass('fixed');
+    $('.description').removeClass('fixed');
+    $('.description').addClass('hide');
+    $('.container__description').attr('style', 'background-image : none; ');
     setTimeout(function () {
         $('.page__style').removeClass('animate_content');
     }, 3200);
@@ -27,6 +29,6 @@ $('.description__cancel').click(function () {
         $('.description').removeClass('fadeIn');
     }, 1500);
     setTimeout(function () {
-        $('.gallery').addClass('fadeIn')
+        $('.gallery').addClass('fadeIn');
     }, 1500);
 });

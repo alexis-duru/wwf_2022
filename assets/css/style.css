@@ -460,6 +460,7 @@ img:hover {
 }
 
 .hide {
+  display: none;
   opacity: 0;
   transition: all 0.2s linear;
 }

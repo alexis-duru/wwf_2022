@@ -422,6 +422,10 @@ body::-webkit-scrollbar {
 .gallery {
   background-image: url("/assets/img/fire.gif");
   background-size: cover;
+  background-blend-mode: luminosity;
+}
+.gallery:hover {
+  background-blend-mode: normal;
 }
 
 .gallery_container {
@@ -597,19 +601,40 @@ img:hover {
   height: 100vh;
   overflow: hidden;
   background-position: center;
-  background-size: contain;
+  background-size: 30%;
   object-fit: contain;
   background-repeat: no-repeat;
   position: relative;
   display: flex;
   align-items: center;
+  transition: 0.3s ease-in-out;
 }
 .container__description .description__cancel {
   color: white;
   position: absolute;
-  right: 0;
-  bottom: 0;
-  font-size: 2em;
+  right: 40px;
+  bottom: 40px;
+  font-size: 1.3em;
+  font-family: "grandslang";
+  margin-right: 20px;
+  margin-top: 20px;
+  transition: 0.7s ease-in-out;
+}
+.container__description .description__cancel:after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px #ffffff;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.container__description .description__cancel:hover {
+  opacity: 0.8;
+}
+.container__description .description__cancel:hover:after {
+  transform: scaleX(1);
+}
+.container__description .description__cancel:after {
+  transform-origin: 0% 50%;
 }
 .container__description .content {
   display: flex;
@@ -623,6 +648,7 @@ img:hover {
   width: 25%;
   font-size: 1.3em;
   color: white;
+  font-family: "grandslang";
 }
 
 /*# sourceMappingURL=style.css.map */

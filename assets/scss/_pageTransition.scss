@@ -128,19 +128,42 @@
     height: 100vh;
     overflow: hidden;
     background-position: center;
-    background-size: contain;
+    background-size: 30%;
     object-fit: contain;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
     align-items: center;
+    transition: 0.3s ease-in-out;
     .description__cancel{
         color: white;
         position: absolute;
-        right: 0;
-        bottom: 0;
-        font-size: 2em;
+        right: 40px;
+        bottom: 40px;
+        font-size: 1.3em;
+        font-family: 'grandslang';
+        margin-right: 20px;
+        margin-top: 20px;
+        transition: 0.7s ease-in-out;
+        &:after {
+            display:block;
+            content: '';
+            border-bottom: solid 1px #ffffff;  
+            transform: scaleX(0);  
+            transition: transform 250ms ease-in-out;
+        }
+        &:hover {
+            opacity: 0.8;
+            &:after { 
+                transform: scaleX(1); 
+            }
+            
+        }
+        &:after{  
+            transform-origin:  0% 50%; 
+        }
     }
+        
     .content{
         display: flex;
         justify-content: space-between;
@@ -152,6 +175,7 @@
             width: 25%;
             font-size: 1.3em;
             color: white;
+            font-family: 'grandslang';
         }
     }
     

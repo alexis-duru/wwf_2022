@@ -113,30 +113,28 @@ html a {
 }
 #homepage .c1 #c1-container-txt-move {
   overflow: hidden;
-  width: 250px;
+  width: 350px;
   height: 25px;
   white-space: nowrap;
   margin: auto;
 }
 #homepage .c1 #c1-container-txt-move #c1-txt-move {
-  font-family: Arial Black, Arial Bold, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 400;
-  font-size: 1rem;
   color: #f1f1f1;
   letter-spacing: 3px;
   animation: scrollTxt 10s linear infinite;
   width: 100%;
-  font-size: 60px;
   white-space: nowrap;
   letter-spacing: 6px;
   font-size: 15px;
 }
 @keyframes scrollTxt {
   0% {
-    transform: translate(-100%, 0);
+    transform: translate(0%);
   }
   100% {
-    transform: translate(0, 0);
+    transform: translate(-100%);
   }
 }
 #homepage .c1 h1 {
@@ -154,7 +152,7 @@ html a {
 }
 #homepage .c3 {
   background-image: url("/assets/img/fire.gif");
-  background-size: contain;
+  background-size: cover;
 }
 #homepage .c3 a {
   font-family: "grandslang";
@@ -380,7 +378,7 @@ html a {
   position: fixed;
   right: 40px;
   bottom: 40px;
-  width: 100px;
+  width: 115px;
   height: 20%;
   display: flex;
   justify-content: space-between;

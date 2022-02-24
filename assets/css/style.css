@@ -419,6 +419,11 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.gallery {
+  background-image: url("/assets/img/fire.gif");
+  background-size: cover;
+}
+
 .gallery_container {
   position: absolute;
   left: 50%;

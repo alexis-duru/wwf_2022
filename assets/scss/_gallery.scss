@@ -30,4 +30,8 @@ img {
     width: 100%;
     filter: grayscale(100%);
     padding: 1rem;
+    transition: filter .5s linear;
+    &:hover{
+        filter: grayscale(0%);
+    }
 }

@@ -10,6 +10,7 @@
         animation: fadein 2.5s;
         animation-delay: 2s;
         position: fixed;
+        z-index: 100000;
     }
     #logo-navigation {
         color: black;

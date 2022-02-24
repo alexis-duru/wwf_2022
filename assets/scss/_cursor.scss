@@ -34,3 +34,11 @@
     opacity: 0;
     transition: opacity .5s linear;
 }
+.increase-gallery{
+    transform: scale(2);
+    transition: transform .5s linear;
+}
+.decrease-follower-gallery{
+    opacity: 0;
+    transition: opacity .5s linear;
+}

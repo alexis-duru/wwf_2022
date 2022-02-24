@@ -142,7 +142,7 @@ window.addEventListener('mousemove', (e) => {
 
 function updateProgressBar() {
     progressBar.style.height = `${getScrollPercentage()}%`;
-    progressNum.innerText = `${Math.ceil(getScrollPercentage())}%` + ` degrees`
+    progressNum.innerText = `${Math.ceil(getScrollPercentage() * 10)}` + ` degrees`
     requestAnimationFrame(updateProgressBar)
 }
 

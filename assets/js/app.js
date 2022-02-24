@@ -155,21 +155,6 @@ updateProgressBar()
 // AOS
 
 
-// const ulElt = document.querySelector('.li-hidden');
-// ulElt.addEventListener('mouseenter', ()=>{
-//         console.log(cursor);
-//         cursor.classList.toggle('increase');
-//         document.querySelector('.cursor-follower')
-//             .classList.toggle('decrease-follower');
-// })
-// ulElt.addEventListener('mouseleave', ()=>{
-//         console.log(cursor);
-//         cursor.classList.toggle('increase');
-//         document.querySelector('.cursor-follower')
-//             .classList.toggle('decrease-follower');
-// })
-
-
 
 
 

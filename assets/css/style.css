@@ -149,6 +149,7 @@ html a {
   animation: fadein 2.5s;
   animation-delay: 2s;
   position: fixed;
+  z-index: 100000;
 }
 .navigation #logo-navigation {
   color: black;
@@ -339,6 +340,16 @@ html a {
 }
 
 .decrease-follower {
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+
+.increase-gallery {
+  transform: scale(2);
+  transition: transform 0.5s linear;
+}
+
+.decrease-follower-gallery {
   opacity: 0;
   transition: opacity 0.5s linear;
 }

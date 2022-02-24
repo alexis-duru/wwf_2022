@@ -109,20 +109,25 @@ follower.removeClass("increase");
 cursor.removeClass("decrease-follower");
 });
 
-// Background color //
+$("#c3-link").on("mouseenter", function() {
+    follower.addClass("increase");
+    cursor.addClass("decrease-follower");
+});
 
-// let changeBackground = document.querySelector ('.c-2');
+$("#c3-link").on("mouseleave", function() {
+    follower.removeClass("increase");
+    cursor.removeClass("decrease-follower");
+});
 
-// window.addEventListener('scroll', () => {
-//     if(window.scrollY > 590){
-//         changeBackground.classList.add('bgcolor');
-//     }else{
-//         changeBackground.classList.remove('bgcolor');
-//     }
-//     console.log(scroll)  
-// });
+$("#c1-title").on("mouseenter", function() {
+    follower.addClass("increase");
+    cursor.addClass("decrease-follower");
+});
 
-// Progress Bar
+$("#c1-title").on("mouseleave", function() {
+    follower.removeClass("increase");
+    cursor.removeClass("decrease-follower");
+});
 
 let progressSection = document.querySelector('.progress-section');
 let progressBar = document.querySelector('.progress-bar');
@@ -147,12 +152,36 @@ function getScrollPercentage() {
 
 updateProgressBar()
 
-// SMOOTH SCROLL
+// Increase / Decrease Cursor Vanilla
 
-// TXT HORIZONTAL
+// const ulElt = document.querySelector('.li-hidden');
+// ulElt.addEventListener('mouseenter', ()=>{
+//         console.log(cursor);
+//         cursor.classList.toggle('increase');
+//         document.querySelector('.cursor-follower')
+//             .classList.toggle('decrease-follower');
+// })
+// ulElt.addEventListener('mouseleave', ()=>{
+//         console.log(cursor);
+//         cursor.classList.toggle('increase');
+//         document.querySelector('.cursor-follower')
+//             .classList.toggle('decrease-follower');
+// })
 
+// Background color //
 
-// AOS
+// let changeBackground = document.querySelector ('.c-2');
+
+// window.addEventListener('scroll', () => {
+//     if(window.scrollY > 590){
+//         changeBackground.classList.add('bgcolor');
+//     }else{
+//         changeBackground.classList.remove('bgcolor');
+//     }
+//     console.log(scroll)  
+// });
+
+// Progress Bar
 
 
 

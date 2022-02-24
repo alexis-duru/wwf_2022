@@ -19,45 +19,71 @@
     }
     
     .bgcolor {
-        background-color: yellow;
-        transition: 0.4s ease-in-out;
-    }
-    .bgcolor2 {
         background-color: red;
         transition: 0.4s ease-in-out;
     }
-    .c-1 {
+    .c1 {
         flex-direction: column;
+        #c1-container-txt-move {
+            overflow: hidden;
+            // position: absolute;
+            width: 250px;
+            height: 25px;
+            white-space: nowrap;
+            margin: auto;
+            #c1-txt-move {
+                font-family: Arial Black,Arial Bold,sans-serif; 
+                font-weight: 400;
+                font-size: 1rem;
+                color: #f1f1f1;
+                letter-spacing: 3px;
+                animation: scrollTxt 10s linear infinite;
+                width: 100%;
+                font-size: 60px;
+                white-space: nowrap;
+                letter-spacing: 6px;
+                font-size: 15px;
+            }
+            @keyframes scrollTxt {
+                0%{
+                    transform: translate(-100%, 0);
+                }
+                100%{
+                    transform: translate(0, 0);
+                }
+            }
+
+        }
         h1 {
             font-family: 'grandslang';
             font-size: 5rem;
             font-weight: 100;
             color: #f1f1f1;
         }
-        p {
-            font-family: Arial Black,Arial Bold,sans-serif; 
-            font-weight: 500;
-            font-size: 1rem;
-            color: #f1f1f1;
-            letter-spacing: 3px;
-        }
     }
-    .c-2 {
+    .c2 {
         p {
             font-family: Arial Black,Arial Bold,sans-serif; 
             font-weight: bold;
-            font-size: 4rem;
-            letter-spacing: 5px;
+            font-size: 3rem;
+            letter-spacing: 6px;
             color: #f1f1f1;
         }
     }
     
-    .c-3 {
+    .c3 {
+        background-image: url('/assets/img/fire.gif') ;
+        // background-size: cover;
+        background-size: contain;
         a {
             font-family: 'grandslang';
             font-size: 5rem;
             font-weight: 100;
             color: rgb(255, 255, 255);
+            text-decoration: none;
+            &:hover {
+                opacity: 0.5;
+            }
         }
     }
     

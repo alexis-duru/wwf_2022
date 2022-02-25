@@ -1,0 +1,81 @@
+@media screen and (max-width: 1024px) {
+
+    #homepage .c1 h1 {
+        font-size: 4rem;
+    }
+    .cursor, .cursor-follower {
+        display: none;
+    }
+    .logo-first-page {
+        font-size: 1em;
+        margin: auto;
+    }
+    .navigation .menu .menuicon {
+        right: 50px;
+    }
+    .navigation .menu #changeMenu {
+        right: 120px;
+    }
+
+    .progress-section {
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 0px;
+    }
+    .progress-bar-wrap {
+        display: none;
+    }
+
+    .navigation .fullPageMenu .nav ul {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation .fullPageMenu .nav ul li,
+    .navigation .fullPageMenu .nav ul :nth-child(2),
+    .navigation .fullPageMenu .nav ul :nth-child(3) {
+        margin-left: 0px;
+    }
+    .navigation .fullPageMenu .nav ul :nth-child(3) {
+        margin-right: 0px;
+    }
+    .navigation .fullPageMenu .nav {
+        width: 100vw;
+    }
+    .navigation .fullPageMenu .nav ul li a {
+        font-size: 4rem;
+    }
+    .navigation .fullPageMenu .nav ul li::after {
+        margin-right: 0px;
+    }
+
+    #homepage .c3 a {
+        font-size: 4rem;
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #homepage .c1 h1 {
+        font-size: 3rem;
+    }
+    .cursor, .cursor-follower {
+        display: none;
+    }
+    .logo-first-page {
+        font-size: 1em;
+        margin: auto;
+    }
+    .navigation .menu .menuicon {
+        right: 100px;
+    }
+    .navigation .menu #changeMenu {
+        right: 170px;
+    }
+  }

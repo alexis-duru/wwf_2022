@@ -1,5 +1,7 @@
 // SPLASHSCREEN
 
+const { Color } = require("three");
+
 let intro = document.querySelector('.intro');
 let logo = document.querySelector('.logo-first-page');
 let logoSpan = document.querySelectorAll('.logo');
@@ -30,11 +32,30 @@ window.addEventListener('DOMContentLoaded', () => {
 // Active the toggle on click
 
 function menuToggle() {
-    var nav = document.getElementById("nav")
-    var toggle = document.getElementById("toggle")
+    let nav = document.getElementById("nav")
+    let toggle = document.getElementById("toggle")
     nav.classList.toggle("active")
     toggle.classList.toggle("active")
 }
+
+// Change the color of toggle on click
+
+// const toggleColor = document.getElementById('toggle');
+
+// toggleColor.addEventListener('click', function onClick() {
+//   toggleColor.style.border = "thin solid black";
+// });
+
+// const toggleColor = document.getElementById('toggle');
+
+// toggleColor.addEventListener('click', function () {
+    
+//     if (toggleColor.classList.contains('closeColorToggle')) {
+//         toggleColor.classList.remove('openColorToggle');
+//       } else {
+//         toggleColor.classList.add('closeColorToggle');
+//       }
+//   });
 
 // Expand fx on the button
 

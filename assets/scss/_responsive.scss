@@ -1,5 +1,7 @@
 @media screen and (max-width: 1024px) {
 
+// HOMEPAGE
+
     #homepage .c1 h1 {
         font-size: 4rem;
     }
@@ -29,6 +31,13 @@
         display: none;
     }
 
+    #homepage .c3 a {
+        font-size: 4rem;
+        width: 70%;
+    }
+
+// NAVIGATION
+
     .navigation .fullPageMenu .nav ul {
         text-align: center;
         display: flex;
@@ -54,11 +63,6 @@
         margin-right: 0px;
     }
 
-    #homepage .c3 a {
-        font-size: 4rem;
-        width: 70%;
-    }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -79,6 +83,24 @@
         right: 170px;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    .logo-first-page {
+        font-size: 2.2rem;
+        
+    }
+
+    .navigation .fullPageMenu .nav ul li:first-child {
+        padding-right: 0px;
+    }
+    
+    .navigation .fullPageMenu .nav ul li:nth-child(3) {
+        padding-left: 0px;
+    }
+}
+
+
 @media screen and (max-width: 375px) {
     .intro .logo-first-page {
         width: 375px;
@@ -92,8 +114,5 @@
             font-size: 0.3em;
 
         }
-    }
-    .navigation .fullPageMenu .nav ul li {
-        white-space: nowrap;
     }
 }

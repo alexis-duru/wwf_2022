@@ -62,9 +62,19 @@
         p {
             font-family: Arial Black,Arial Bold,sans-serif; 
             font-weight: bold;
-            font-size: 3rem;
+            font-size: 2rem;
             letter-spacing: 6px;
             color: #f1f1f1;
+            border: 0.1px solid #5a2828 ;
+            padding: 22px;
+            background-clip: text;
+            transition: 0.3s ease-in-out;
+            filter: blur(2.5px);
+            &:hover {
+                filter: blur(0px);
+                background-image: url('../img/fire.gif');
+                color: #935b4b;
+            }
         }
     }
     

@@ -51,27 +51,33 @@ html a {
   z-index: 1;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: white;
   font-family: "GrandSlang";
   font-size: 5rem;
   color: black;
   transition: 1s;
+  margin: auto;
+  text-align: center;
 }
 .intro .logo-first-page {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
+  width: 100vw;
+  margin-left: 30px;
 }
 .intro .logo-first-page .logo {
   position: relative;
   display: inline-block;
   bottom: -20px;
   opacity: 0;
-  margin-right: 50px;
   font-weight: 100;
+  letter-spacing: 50px;
 }
 .intro .logo-first-page .logo.active {
   bottom: 0;
@@ -145,9 +151,19 @@ html a {
 #homepage .c2 p {
   font-family: Arial Black, Arial Bold, sans-serif;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   letter-spacing: 6px;
   color: #f1f1f1;
+  border: 0.1px solid #5a2828;
+  padding: 22px;
+  background-clip: text;
+  transition: 0.3s ease-in-out;
+  filter: blur(2.5px);
+}
+#homepage .c2 p:hover {
+  filter: blur(0px);
+  background-image: url("../img/fire.gif");
+  color: #935b4b;
 }
 #homepage .c3 {
   background-image: url("../img/fire.gif");
@@ -206,7 +222,7 @@ html a {
 .navigation .fullPageMenu .nav {
   display: flex;
   height: 100%;
-  width: 100%;
+  width: auto;
   padding: 0 150px;
   justify-content: center;
   align-items: center;
@@ -216,15 +232,19 @@ html a {
   user-select: none;
   counter-reset: menucounter;
   opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.navigation .fullPageMenu .nav ul li:first-child {
+  padding-right: 250px;
+}
+.navigation .fullPageMenu .nav ul li:nth-child(3) {
+  padding-left: 250px;
 }
 .navigation .fullPageMenu .nav ul:hover a {
   opacity: 0.3;
-}
-.navigation .fullPageMenu .nav ul :nth-child(2) {
-  margin-left: 250px;
-}
-.navigation .fullPageMenu .nav ul :nth-child(3) {
-  margin-right: 250px;
 }
 .navigation .fullPageMenu .nav ul :hover a:hover {
   opacity: 1;
@@ -236,6 +256,10 @@ html a {
   opacity: 1;
   list-style: none;
   color: black;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: baseline;
 }
 .navigation .fullPageMenu .nav ul li::after {
   counter-increment: menucounter;
@@ -272,7 +296,7 @@ html a {
   right: 40px;
   height: 40px;
   width: 40px;
-  border: 1px solid #333;
+  border: 1px solid white;
   border-radius: 150px;
   transform: scale(1);
   transition: 0.4s ease-in-out;
@@ -287,7 +311,7 @@ html a {
   transform: translate(-50%, -50%);
   width: 3px;
   height: 3px;
-  background-color: #333;
+  background-color: white;
   border-radius: 50%;
 }
 .navigation .menu .menuicon:hover {
@@ -307,10 +331,11 @@ html a {
   width: 20px;
   transform: scale(1);
   transition: 0.4s ease-in-out;
-  color: #333;
+  color: white;
   font-weight: 200;
   font-size: 20px;
   z-index: 100;
+  opacity: 0;
 }
 
 @keyframes Anim2 {
@@ -423,12 +448,9 @@ body::-webkit-scrollbar {
 }
 
 .gallery {
-  background-image: url("../img/fire.gif");
-  background-size: cover;
-  background-blend-mode: luminosity;
-}
-.gallery:hover {
+  background-image: url("../img/fire3.gif");
   background-blend-mode: normal;
+  background-size: cover;
 }
 
 .gallery_container {
@@ -449,7 +471,7 @@ body::-webkit-scrollbar {
   transform: translate(-600px, -600px);
   width: 200%;
   height: auto;
-  padding: 200px;
+  padding: 100px;
   transition: 1.5s ease-in-out;
   display: flex;
 }
@@ -649,7 +671,8 @@ img:hover {
 }
 .container__description .content div {
   width: 25%;
-  font-size: 1.3em;
+  font-size: 1.2em;
+  font-weight: 100;
   color: white;
   font-family: "GrandSlang";
 }
@@ -689,6 +712,11 @@ img:hover {
     display: none;
   }
 
+  #homepage .c3 a {
+    font-size: 4rem;
+    width: 70%;
+  }
+
   .navigation .fullPageMenu .nav ul {
     text-align: center;
     display: flex;
@@ -718,11 +746,6 @@ img:hover {
   .navigation .fullPageMenu .nav ul li::after {
     margin-right: 0px;
   }
-
-  #homepage .c3 a {
-    font-size: 4rem;
-    width: 70%;
-  }
 }
 @media screen and (max-width: 768px) {
   #homepage .c1 h1 {
@@ -746,6 +769,19 @@ img:hover {
     right: 170px;
   }
 }
+@media screen and (max-width: 500px) {
+  .logo-first-page {
+    font-size: 2.2rem;
+  }
+
+  .navigation .fullPageMenu .nav ul li:first-child {
+    padding-right: 0px;
+  }
+
+  .navigation .fullPageMenu .nav ul li:nth-child(3) {
+    padding-left: 0px;
+  }
+}
 @media screen and (max-width: 375px) {
   .intro .logo-first-page {
     width: 375px;
@@ -758,10 +794,6 @@ img:hover {
   }
   .intro .logo-first-page span {
     font-size: 0.3em;
-  }
-
-  .navigation .fullPageMenu .nav ul li {
-    white-space: nowrap;
   }
 }
 

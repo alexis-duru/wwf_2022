@@ -17,26 +17,32 @@
     z-index: 1;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: white;
-    
     font-family: 'GrandSlang';
     font-size: 5rem;
     color: black;
     transition: 1s;
+    margin: auto;
+    text-align: center;
     .logo-first-page {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        margin: auto;
+        text-align: center;
+        width: 100vw;
+        margin-left: 30px;
         .logo {
             position: relative;
             display: inline-block;
             bottom: -20px;
             opacity: 0;    
-            margin-right: 50px;
             font-weight: 100;
+            letter-spacing: 50px;
+
         }
         .logo.active {
             bottom: 0;

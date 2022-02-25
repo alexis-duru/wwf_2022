@@ -16,11 +16,7 @@ html a {
 }
 
 @font-face {
-  font-family: "grandslang";
-  src: url("/assets/fonts/grandslang.ttf") format("ttf");
-}
-@font-face {
-  font-family: "grandslang-web";
+  font-family: "GrandSlang";
   src: url("/assets/fonts/GrandSlang.woff2") format("woff2");
 }
 @font-face {
@@ -58,7 +54,7 @@ html a {
   width: 100%;
   height: 100vh;
   background-color: white;
-  font-family: "grandslang-web";
+  font-family: "GrandSlang";
   font-size: 5rem;
   color: black;
   transition: 1s;
@@ -142,7 +138,7 @@ html a {
   }
 }
 #homepage .c1 h1 {
-  font-family: "grandslang-web";
+  font-family: "GrandSlang";
   font-size: 5rem;
   font-weight: 100;
   color: #f1f1f1;
@@ -159,7 +155,7 @@ html a {
   background-size: cover;
 }
 #homepage .c3 a {
-  font-family: "grandslang-web";
+  font-family: "GrandSlang";
   font-size: 5rem;
   font-weight: 100;
   color: white;
@@ -400,7 +396,7 @@ html a {
   will-change: transform;
   transition: 0.4s ease-in-out;
   color: white;
-  font-family: "grandslang-web";
+  font-family: "GrandSlang";
 }
 
 .progress-bar-wrap {
@@ -501,7 +497,7 @@ img:hover {
   top: 3%;
   font-size: 2rem;
   color: white;
-  font-family: "grandslang-web";
+  font-family: "GrandSlang";
   letter-spacing: 4px;
   text-decoration: none;
   animation: fadein 2.5s;
@@ -619,7 +615,7 @@ img:hover {
   right: 40px;
   bottom: 40px;
   font-size: 1.3em;
-  font-family: "grandslang-web";
+  font-family: "GrandSlang";
   margin-right: 20px;
   margin-top: 20px;
   transition: 0.7s ease-in-out;
@@ -652,7 +648,7 @@ img:hover {
   width: 25%;
   font-size: 1.3em;
   color: white;
-  font-family: "grandslang-web";
+  font-family: "GrandSlang";
 }
 
 /*# sourceMappingURL=style.css.map */

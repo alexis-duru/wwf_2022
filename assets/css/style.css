@@ -791,9 +791,10 @@ img:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 30px;
   }
   .intro .logo-first-page span {
-    font-size: 0.3em;
+    font-size: 2em;
   }
 }
 

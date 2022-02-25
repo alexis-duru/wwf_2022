@@ -17,19 +17,19 @@ html a {
 
 @font-face {
   font-family: "GrandSlang";
-  src: url("/assets/fonts/GrandSlang.woff2") format("woff2");
+  src: url("../fonts/GrandSlang.woff2") format("woff2");
 }
 @font-face {
   font-family: "archia";
-  src: url("/assets/fonts/archia.otf") format("otf");
+  src: url("../fonts/archia.otf") format("otf");
 }
 @font-face {
   font-family: "oregon";
-  src: url("/assets/fonts/oregon.ttf") format("ttf");
+  src: url("../fonts/oregon.ttf") format("ttf");
 }
 @font-face {
   font-family: "CosiTimes-Roman";
-  src: url("/assets/fonts/CosiTimes-Roman.ttf") format("ttf");
+  src: url("../fonts/CosiTimes-Roman.ttf") format("ttf");
 }
 /* Splash Screen */
 .noise::before {

@@ -759,6 +759,10 @@ img:hover {
   .intro .logo-first-page span {
     font-size: 0.3em;
   }
+
+  .navigation .fullPageMenu .nav ul li {
+    white-space: nowrap;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

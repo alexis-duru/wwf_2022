@@ -101,7 +101,6 @@ html a {
 #homepage .container .wrapper {
   width: auto;
   height: auto;
-  padding: 50px;
   overflow: hidden;
 }
 #homepage .bgcolor {
@@ -169,6 +168,10 @@ html a {
   transition: all 0.2s linear;
 }
 
+.navigation {
+  width: 100vw;
+  height: auto;
+}
 .navigation .logo-header {
   left: 40px;
   top: 3%;
@@ -741,6 +744,20 @@ img:hover {
 
   .navigation .menu #changeMenu {
     right: 170px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .intro .logo-first-page {
+    width: 375px;
+    margin: auto;
+    width: 375px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro .logo-first-page span {
+    font-size: 0.3em;
   }
 }
 

@@ -78,4 +78,19 @@
     .navigation .menu #changeMenu {
         right: 170px;
     }
-  }
+}
+@media screen and (max-width: 375px) {
+    .intro .logo-first-page {
+        width: 375px;
+        margin: auto;
+        width: 375px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            font-size: 0.3em;
+
+        }
+    }
+}

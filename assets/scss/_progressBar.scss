@@ -1,4 +1,4 @@
-.progress-section {
+.progressbar__container {
     position: fixed;
     right: 40px;
     bottom: 40px;
@@ -12,7 +12,7 @@
     font-family: 'GrandSlang'; 
 }
 
-.progress-bar-wrap {
+.progressbar__wrap {
     position: relative;
     width: 4px;
     border-radius: 10px;
@@ -20,7 +20,7 @@
     background-color: #333;
 }
 
-.progress-bar {
+.progressbar {
     position: absolute;
     bottom: 0;
     width: 100%;

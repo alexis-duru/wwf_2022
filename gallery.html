@@ -5,9 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WWF - Gallery</title>
+  <!-- FAVICON  -->
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_package_v0.16/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_package_v0.16/favicon-32x32.png">
+  <!-- STYLESHEET  -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- SCRIPTS -->
   <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js">
   </script>
@@ -17,22 +21,23 @@
   <script defer type="text/javascript" src="assets/js/gallery.js"></script>
   <script defer type="text/javascript" src="assets/js/app.js"></script>
   <script defer type="text/javascript" src="assets/js/transition.js"></script>
-  <title>WWF - Gallery</title>
 </head>
 
 <body>
+  <!-- CURSOR AND BACKGROUND NOISE -->
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
   <div class="noise"></div>
-  <!-- Gallery -->
+  <!-- GLOBAL GALLERY -->
   <div class="page__style gallery">
     <div class="page__description">
+      <!-- SPLASHSCREEN -->
       <div class="intro">
-        <h1 class="logo-first-page">
-          <span class="logo">W</span><span class="logo">W</span><span class="logo">F</span>
+        <h1 class="intro__logo">
+          <span class="intro__logo__letter">W</span><span class="intro__logo__letter">W</span><span class="intro__logo__letter">F</span>
         </h1>
       </div>
-      <div id="homepage" class="homepage gallery">
+        <!-- SLIDER NAVIGATION -->
         <div class="navigation">
           <a href="index.html" class="logo-header"></a>
           <div class="fullPageMenu" id="nav">
@@ -51,11 +56,13 @@
               </ul>
             </div>
           </div>
+          <!-- NAVIGATION TOGGLE BUTTON -->
           <div class="menu">
             <p id="changeMenu">Menu</p>
             <span class="menuicon" id="toggle" onclick="menuToggle(), ChangeTxtMenu()"></span>
           </div>
         </div>
+        <!-- GALLERY -->
         <div class="gallery_container" style="width: 50%; height: 50vh;">
           <div class="gallery_canvas">
             <div class="gallery_column one"></div>
@@ -67,33 +74,9 @@
       </div>
     </div>
   </div>
-  <!-- Description -->
+  <!-- GALLERY DESCRIPTION -->
   <div class="page__style description hide">
     <div class="page__description">
-      <div id="homepage" class="homepage">
-        <div class="navigation">
-          <a href="index.html" class="logo-header"></a>
-          <div class="fullPageMenu" id="nav">
-            <a href="#" class="logo-header" id="logo-navigation" onclick="menuToggle()"></a>
-            <div class="nav">
-              <ul class="li-hidden">
-                <li>
-                  <a class="menu-item" href="#" data-text="Story">STORY</a>
-                </li>
-                <li>
-                  <a class="menu-item" href="#" data-text="About">ABOUT</a>
-                </li>
-                <li>
-                  <a class="menu-item" href="#" data-text="World">WORLD</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="menu">
-            <p id="changeMenu">Menu</p>
-            <span class="menuicon" id="toggle" onclick="menuToggle(), ChangeTxtMenu()"></span>
-          </div>
-        </div>
         <div class="container__description">
           <div class="description__cancel fromLeft">
             Back

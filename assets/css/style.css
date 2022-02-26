@@ -39,7 +39,6 @@ html a {
   width: 100vw;
   height: 100vh;
   content: "";
-  /* you can control opacity of noise  */
   opacity: 0.05;
   z-index: 1000;
   pointer-events: none;
@@ -61,7 +60,7 @@ html a {
   margin: auto;
   text-align: center;
 }
-.intro .logo-first-page {
+.intro .intro__logo {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -71,7 +70,7 @@ html a {
   width: 100vw;
   margin-left: 30px;
 }
-.intro .logo-first-page .logo {
+.intro .intro__logo .intro__logo__letter {
   position: relative;
   display: inline-block;
   bottom: -20px;
@@ -79,12 +78,12 @@ html a {
   font-weight: 100;
   letter-spacing: 50px;
 }
-.intro .logo-first-page .logo.active {
+.intro .intro__logo .intro__logo__letter.active {
   bottom: 0;
   opacity: 1;
   transition: ease-in-out 0.5s;
 }
-.intro .logo-first-page .logo.fade {
+.intro .intro__logo .intro__logo__letter.fade {
   bottom: 400px;
   opacity: 0;
   transition: ease-in-out 0.5s;
@@ -95,7 +94,7 @@ html a {
   min-height: 100vh;
   width: 100%;
 }
-#homepage .container {
+#homepage .homepage__container {
   height: 100vh;
   width: 100%;
   background-color: black;
@@ -104,7 +103,7 @@ html a {
   align-items: center;
   text-align: center;
 }
-#homepage .container .wrapper {
+#homepage .homepage__container .wrapper {
   width: auto;
   height: auto;
   overflow: hidden;
@@ -413,7 +412,7 @@ html a {
   transition: opacity 0.5s linear;
 }
 
-.progress-section {
+.progressbar__container {
   position: fixed;
   right: 40px;
   bottom: 40px;
@@ -427,7 +426,7 @@ html a {
   font-family: "GrandSlang";
 }
 
-.progress-bar-wrap {
+.progressbar__wrap {
   position: relative;
   width: 4px;
   border-radius: 10px;
@@ -435,7 +434,7 @@ html a {
   background-color: #333;
 }
 
-.progress-bar {
+.progressbar {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -686,7 +685,7 @@ img:hover {
     display: none;
   }
 
-  .logo-first-page {
+  .intro__logo {
     font-size: 1em;
     margin: auto;
   }
@@ -699,7 +698,7 @@ img:hover {
     right: 120px;
   }
 
-  .progress-section {
+  .progressbar__container {
     width: 100vw;
     margin: auto;
     display: flex;
@@ -708,7 +707,7 @@ img:hover {
     right: 0px;
   }
 
-  .progress-bar-wrap {
+  .progressbar__wrap {
     display: none;
   }
 
@@ -756,7 +755,7 @@ img:hover {
     display: none;
   }
 
-  .logo-first-page {
+  .intro__logo {
     font-size: 1em;
     margin: auto;
   }
@@ -770,7 +769,7 @@ img:hover {
   }
 }
 @media screen and (max-width: 500px) {
-  .logo-first-page {
+  .intro__logo {
     font-size: 2.2rem;
   }
 
@@ -783,7 +782,7 @@ img:hover {
   }
 }
 @media screen and (max-width: 375px) {
-  .intro .logo-first-page {
+  .intro .intro__logo {
     width: 375px;
     margin: auto;
     width: 375px;
@@ -793,7 +792,7 @@ img:hover {
     align-items: center;
     margin-left: 30px;
   }
-  .intro .logo-first-page span {
+  .intro .intro__logo span {
     font-size: 2em;
   }
 }

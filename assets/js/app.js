@@ -3,8 +3,8 @@
 const { Color } = require("three");
 
 let intro = document.querySelector('.intro');
-let logo = document.querySelector('.logo-first-page');
-let logoSpan = document.querySelectorAll('.logo');
+let logo = document.querySelector('.intro__logo');
+let logoSpan = document.querySelectorAll('.intro__logo__letter');
 
 window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
@@ -40,22 +40,6 @@ function menuToggle() {
 
 // Change the color of toggle on click
 
-// const toggleColor = document.getElementById('toggle');
-
-// toggleColor.addEventListener('click', function onClick() {
-//   toggleColor.style.border = "thin solid black";
-// });
-
-// const toggleColor = document.getElementById('toggle');
-
-// toggleColor.addEventListener('click', function () {
-    
-//     if (toggleColor.classList.contains('closeColorToggle')) {
-//         toggleColor.classList.remove('openColorToggle');
-//       } else {
-//         toggleColor.classList.add('closeColorToggle');
-//       }
-//   });
 
 // Expand fx on the button
 
@@ -82,7 +66,7 @@ function ChangeTxtMenu() {
 
 // HOMEPAGE
 
-// Cursor //
+// CIRCLE CURSOR //
 
 
 var cursor = $(".cursor"),
@@ -114,6 +98,8 @@ onRepeat: function() {
     });
 }
 });
+
+// CURSOR INCREASE / DECREASE
 
 $(document).on("mousemove", function(e) {
 mouseX = e.pageX;
@@ -150,9 +136,10 @@ $("#c1-title").on("mouseleave", function() {
     cursor.removeClass("decrease-follower");
 });
 
-let progressSection = document.querySelector('.progress-section');
-let progressBar = document.querySelector('.progress-bar');
-let progressNum = document.querySelector('.progress-num')
+// PROGRESSBAR
+
+let progressBar = document.querySelector('.progressbar');
+let progressNum = document.querySelector('.progressnum')
 
 let x, y;
 
@@ -173,36 +160,8 @@ function getScrollPercentage() {
 
 updateProgressBar()
 
-// Increase / Decrease Cursor Vanilla
-
-// const ulElt = document.querySelector('.li-hidden');
-// ulElt.addEventListener('mouseenter', ()=>{
-//         console.log(cursor);
-//         cursor.classList.toggle('increase');
-//         document.querySelector('.cursor-follower')
-//             .classList.toggle('decrease-follower');
-// })
-// ulElt.addEventListener('mouseleave', ()=>{
-//         console.log(cursor);
-//         cursor.classList.toggle('increase');
-//         document.querySelector('.cursor-follower')
-//             .classList.toggle('decrease-follower');
-// })
-
 // Background color //
 
-// let changeBackground = document.querySelector ('.c-2');
-
-// window.addEventListener('scroll', () => {
-//     if(window.scrollY > 590){
-//         changeBackground.classList.add('bgcolor');
-//     }else{
-//         changeBackground.classList.remove('bgcolor');
-//     }
-//     console.log(scroll)  
-// });
-
-// Progress Bar
 
 
 

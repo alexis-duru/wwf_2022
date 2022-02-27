@@ -5,6 +5,7 @@ const { Color } = require("three");
 let intro = document.querySelector('.intro');
 let logo = document.querySelector('.intro__logo');
 let logoSpan = document.querySelectorAll('.intro__logo__letter');
+const expandMenuIcon = document.querySelector('.menuicon');
 
 window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
@@ -25,6 +26,9 @@ window.addEventListener('DOMContentLoaded', () => {
             intro.style.top = '-100vh';
         },3000)
     })
+    setTimeout(()=>{
+        expandMenuIcon.classList.toggle('activeCircle');
+    }, 4000)
 })
 
 // NAVIGATION 
@@ -42,8 +46,6 @@ function menuToggle() {
 
 
 // Expand fx on the button
-
-const expandMenuIcon = document.querySelector('.menuicon');
 
 document.addEventListener('click', () => {
     expandMenuIcon.classList.add('expand');

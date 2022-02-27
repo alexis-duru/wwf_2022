@@ -668,7 +668,7 @@ img:hover {
   width: 100%;
   height: auto;
 }
-.container__description .content div {
+.container__description .content p {
   width: 25%;
   font-size: 1.2em;
   font-weight: 100;

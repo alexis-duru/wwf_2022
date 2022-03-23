@@ -81,12 +81,44 @@
     .c3 {
         background-image: url('../img/fire.gif') ;
         background-size: cover;
+        flex-direction: column;
+        transition: 0.3s ease-in-out;
+        #c3-container-txt-move {
+            overflow: hidden;
+            width: 350px;
+            height: 25px;
+            white-space: nowrap;
+            transition: 0.3s ease-in-out;
+            // margin: auto;
+            #c3-txt-move {
+                font-family:'Times New Roman', Times, serif;
+                font-weight: 400;
+                color: #f1f1f1;
+                letter-spacing: 3px;
+                animation: scrollTxt 10s linear infinite;
+                width: 100%;
+                white-space: nowrap;
+                letter-spacing: 6px;
+                font-size: 15px;
+                opacity: 0.5;
+            }
+            @keyframes scrollTxt {
+                0%{
+                    transform: translate(0%);
+                }
+                100% {
+                    transform: translate(-100%);
+                }
+            }
+
+        }
         a {
             font-family: 'GrandSlang';
             font-size: 5rem;
             font-weight: 100;
             color: rgb(255, 255, 255);
             text-decoration: none;
+            transition: 0.3s ease-in-out;
             &:hover {
                 opacity: 0.5;
             }

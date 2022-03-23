@@ -3,7 +3,7 @@
 const { Color } = require("three");
 
 let intro = document.querySelector('.intro');
-let logo = document.querySelector('.intro__logo');
+// let logo = document.querySelector('.intro__logo');
 let logoSpan = document.querySelectorAll('.intro__logo__letter');
 const expandMenuIcon = document.querySelector('.menuicon');
 
@@ -162,7 +162,6 @@ function getScrollPercentage() {
 
 updateProgressBar()
 
-// Background color //
 
 
 

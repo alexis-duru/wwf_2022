@@ -82,6 +82,44 @@
     .navigation .menu #changeMenu {
         right: 170px;
     }
+    .container__description .content p {
+        width: 25%;
+        font-size: 0.6em;
+        font-weight: 100;
+        color: white;
+        font-family: "GrandSlang";
+    }
+
+    .gallery_container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        overflow-X: hidden;
+        width: 70vw;
+        height: 70vh;
+        .gallery_canvas {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translate(0px, 0px);
+            height: auto;
+            transition: 1.5s ease-in-out;
+            transform: scale(1.5);
+            .gallery_column {
+                position: relative;
+                flex: 25%;
+                div {
+                    img {
+                        width: 100%;
+                        filter: grayscale(100%);
+                        padding: 1rem;
+                        transition: filter 0.5s linear;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 500px) {

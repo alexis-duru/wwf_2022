@@ -167,6 +167,35 @@ html a {
 #homepage .c3 {
   background-image: url("../img/fire.gif");
   background-size: cover;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+}
+#homepage .c3 #c3-container-txt-move {
+  overflow: hidden;
+  width: 350px;
+  height: 25px;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+}
+#homepage .c3 #c3-container-txt-move #c3-txt-move {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #f1f1f1;
+  letter-spacing: 3px;
+  animation: scrollTxt 10s linear infinite;
+  width: 100%;
+  white-space: nowrap;
+  letter-spacing: 6px;
+  font-size: 15px;
+  opacity: 0.5;
+}
+@keyframes scrollTxt {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(-100%);
+  }
 }
 #homepage .c3 a {
   font-family: "GrandSlang";
@@ -174,6 +203,7 @@ html a {
   font-weight: 100;
   color: white;
   text-decoration: none;
+  transition: 0.3s ease-in-out;
 }
 #homepage .c3 a:hover {
   opacity: 0.5;
@@ -297,9 +327,11 @@ html a {
   width: 40px;
   border: 1px solid white;
   border-radius: 150px;
+  mix-blend-mode: difference;
   transform: scale(1);
   transition: 0.4s ease-in-out;
   animation: Anim1 1s infinite alternate;
+  opacity: 0;
   z-index: 100;
 }
 .navigation .menu .menuicon:before {
@@ -318,7 +350,6 @@ html a {
 }
 .navigation .menu .expand {
   animation: Anim2 4.5s ease-in-out;
-  background: white(177, 177, 89);
   border: 1px dotted #333;
   transition: ease-in-out;
 }
@@ -335,6 +366,10 @@ html a {
   font-size: 20px;
   z-index: 100;
   opacity: 0;
+}
+
+.activeCircle {
+  opacity: 1 !important;
 }
 
 @keyframes Anim2 {
@@ -458,8 +493,8 @@ body::-webkit-scrollbar {
   top: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-  width: 1200px;
-  height: 800px;
+  width: 70vw;
+  height: 70vh;
   /* border: 1px solid white; */
 }
 
@@ -766,6 +801,43 @@ img:hover {
 
   .navigation .menu #changeMenu {
     right: 170px;
+  }
+
+  .container__description .content p {
+    width: 25%;
+    font-size: 0.6em;
+    font-weight: 100;
+    color: white;
+    font-family: "GrandSlang";
+  }
+
+  .gallery_container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow-X: hidden;
+    width: 70vw;
+    height: 70vh;
+  }
+  .gallery_container .gallery_canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(0px, 0px);
+    height: auto;
+    transition: 1.5s ease-in-out;
+    transform: scale(1.5);
+  }
+  .gallery_container .gallery_canvas .gallery_column {
+    position: relative;
+    flex: 25%;
+  }
+  .gallery_container .gallery_canvas .gallery_column div img {
+    width: 100%;
+    filter: grayscale(100%);
+    padding: 1rem;
+    transition: filter 0.5s linear;
   }
 }
 @media screen and (max-width: 500px) {
